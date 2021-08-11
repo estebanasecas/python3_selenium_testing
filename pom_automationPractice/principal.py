@@ -16,8 +16,8 @@ from pages.pageShop import PageShop
 class Principal(unittest.TestCase):
 
     def setUp(self):                                                   
-                    # firefox webdriver                 your webdriver path  
-        self.driver = webdriver.Firefox(executable_path='.../driverFirefox')
+                    # firefox webdriver                    your webdriver path  
+        self.driver = webdriver.Firefox(executable_path='/home/.../driverFirefox')
         
         self.driver.get("http://automationpractice.com/index.php")
         self.driver.implicitly_wait(5)
